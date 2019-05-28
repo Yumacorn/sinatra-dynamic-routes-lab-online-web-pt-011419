@@ -17,10 +17,10 @@ class App < Sinatra::Base
   end
 
   get '/say/:number/:phrase' do
-    @num = params[:number]
-    @phrase = params[:phrase]
-    printArray = []
-    <% @num.times do printArray << @phrase %>
-    <%= printArray%>
+    # @num = params[:number]
+    # @phrase = params[:phrase]
+    # printArray = []
+    # <% @num.times do printArray << @phrase %>
+    # <%= printArray%>
   end
 end
